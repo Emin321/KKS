@@ -36,7 +36,7 @@ router.delete("/:id", auth, (req, res) => {
     .run(req.params.id, req.user.id);
 
   if (result.changes === 0) {
-    return res.status(404).send("Task ne postoji ili nije tvoj");
+    return res.status(404).send("Task ne postoji ili nije tvoj.");
   }
 
   res.send("Task obrisan");
