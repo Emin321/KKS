@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "seed": "node database/seed.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,9 @@
     "bcryptjs": "^3.0.3",
     "better-sqlite3": "^12.6.2",
     "express": "^5.2.1",
+    "jest": "^30.4.2",
     "jsonwebtoken": "^9.0.3",
+    "save-dev": "^0.0.1-security",
     "zod": "^4.3.6"
   }
 }
