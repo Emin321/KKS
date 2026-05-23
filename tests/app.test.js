@@ -12,7 +12,7 @@ describe("Basic routes", () => {
   test("GET / should return correct text", async () => {
     const response = await request(app).get("/");
 
-    expect(response.text).toBe("test test test");
+    expect(response.text).toBe("test test");
   });
 
   test("GET /about should return status 200", async () => {
